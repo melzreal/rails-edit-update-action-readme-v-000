@@ -1,7 +1,7 @@
 
 <h3>Article Form</h3>
 
-<%= form_tag article_path(@article), method: "patch" do %>
+<%= form_tag article_path(@article), method: "put" do %>
   <label>Article title:</label><br>
   <%= text_field_tag 'article[title]', @article.title %><br>
 
